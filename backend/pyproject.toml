@@ -1,0 +1,13 @@
+[project]
+name = "devin-autofix-engine"
+version = "0.1.0"
+description = "Event-driven automation engine that uses the Devin v3 API to remediate repository issues."
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.115.6",
+    "uvicorn[standard]==0.34.0",
+    "httpx==0.28.1",
+    "pydantic==2.10.4",
+    "pydantic-settings==2.7.1",
+    "python-dotenv==1.0.1",
+]
